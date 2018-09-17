@@ -583,6 +583,7 @@ $size-header-pad: 4em;
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
 			background: url('images/overlay.png');
 			border-radius: _size(border-radius);
+			transition-delay: 3s;
 			content: '';
 			display: block;
 			height: 100%;
